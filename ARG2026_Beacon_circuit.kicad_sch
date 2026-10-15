@@ -2144,6 +2144,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "hello\n"
+		(exclude_from_sim no)
+		(at 100.076 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1b7c428b-edf8-4009-ac0e-a94e66efb83d")
+	)
 	(junction
 		(at 116.84 90.17)
 		(diameter 0)
