@@ -105,8 +105,8 @@
 			)
 		)
 		(property "Value" "CH32V002A4M6"
-			(at 0 5.9 0)
-			(layer "F.Fab")
+			(at -9.79 -3.09 0)
+			(layer "F.SilkS")
 			(uuid "53975188-8585-4c7b-940c-90a07a0431ab")
 			(effects
 				(font
@@ -917,7 +917,7 @@
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R8"
-			(at 12.46 -0.83 0)
+			(at 5.12 2.316937 0)
 			(layer "F.SilkS")
 			(uuid "39bfc34a-ec96-4cd9-a4a1-6fa462779b66")
 			(effects
@@ -928,8 +928,8 @@
 			)
 		)
 		(property "Value" "470"
-			(at 12.78 0.93 0)
-			(layer "F.Fab")
+			(at 5.08 0 0)
+			(layer "F.SilkS")
 			(uuid "e9316d11-0eae-4fdf-81b4-69142766cd8b")
 			(effects
 				(font
@@ -2967,8 +2967,8 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 2 -2.44 90)
-			(layer "F.Fab")
+			(at 5.08 0 90)
+			(layer "F.SilkS")
 			(uuid "79dea254-9385-4a6d-9bdc-5db60eb76271")
 			(effects
 				(font
@@ -3911,9 +3911,9 @@
 				)
 			)
 		)
-		(property "Value" "5R1"
-			(at 5.08 2.37 90)
-			(layer "F.Fab")
+		(property "Value" "6R8"
+			(at 5.08 0 90)
+			(layer "F.SilkS")
 			(uuid "b932f1d5-42e0-4839-a76f-9e6d4f84bd75")
 			(effects
 				(font
@@ -4491,6 +4491,19 @@
 			)
 			(layer "F.Fab")
 			(uuid "8bf7c1b2-7504-4388-b359-4d1253658043")
+		)
+		(fp_text user "GND"
+			(at -1.5 5.5 270)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "7a44f269-0111-4e90-9930-8f773468399d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+				(justify left bottom)
+			)
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 1.27 0)
@@ -5178,7 +5191,7 @@
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R4"
-			(at 12.43 -0.77 0)
+			(at 5.12 -2.348063 0)
 			(layer "F.SilkS")
 			(uuid "bc6c12cc-d0c9-4fac-91b4-7b9966252a0b")
 			(effects
@@ -5188,9 +5201,9 @@
 				)
 			)
 		)
-		(property "Value" "5R1"
-			(at 12.88 0.95 0)
-			(layer "F.Fab")
+		(property "Value" "6R8"
+			(at 5.08 0 0)
+			(layer "F.SilkS")
 			(uuid "ef9861c4-e808-44b0-bf33-7b8bec2927b5")
 			(effects
 				(font
@@ -5369,7 +5382,7 @@
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R5"
-			(at 7.99 -2.67 270)
+			(at 5.15 -2.29 90)
 			(layer "F.SilkS")
 			(uuid "69a4a701-9c63-46ec-b6a5-17e78efe0f25")
 			(effects
@@ -5379,9 +5392,9 @@
 				)
 			)
 		)
-		(property "Value" "5R1"
-			(at 3.52 -2.47 270)
-			(layer "F.Fab")
+		(property "Value" "6R8"
+			(at 5.08 0 90)
+			(layer "F.SilkS")
 			(uuid "951514e5-b823-4b38-8c75-664404ebb309")
 			(effects
 				(font
@@ -5391,7 +5404,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "83a6224f-9664-4267-b357-c53e70229b34")
@@ -5402,7 +5415,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "3fc26cdc-a8d5-4700-a5a2-b24fbdb44a30")
@@ -5413,7 +5426,7 @@
 			)
 		)
 		(property "KiLib_Generator" "resistor/THT"
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "b5b301fc-f318-4a9d-80c7-4f6eb93d1d0f")
@@ -5510,7 +5523,7 @@
 			(uuid "60579637-db4f-4303-a1f7-7bcd4f32fd07")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 5.08 0 270)
+			(at 5.08 0 90)
 			(layer "F.Fab")
 			(uuid "52fe29e8-238b-4b4c-8cbe-53e225706e2c")
 			(effects
@@ -5559,17 +5572,6 @@
 		(at 247.79 91.02 -90)
 		(descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x02 2.54mm single row")
-		(property "Reference" "J1"
-			(at 0 -2.38 90)
-			(layer "F.SilkS")
-			(uuid "92b5a0a0-1628-4b47-b948-5dc8c96862f1")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Value" "Conn_01x02_Pin"
 			(at 0 4.92 90)
 			(layer "F.Fab")
@@ -5608,6 +5610,17 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "9fa33259-1dda-4f4e-9b59-7c0d3641e955")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Reference" "J1"
+			(at 0 -2.38 90)
+			(layer "F.SilkS")
+			(uuid "92b5a0a0-1628-4b47-b948-5dc8c96862f1")
 			(effects
 				(font
 					(size 1 1)
@@ -5747,6 +5760,19 @@
 			)
 			(layer "F.Fab")
 			(uuid "213e4578-07fd-4524-a4d8-f48e3092bcbc")
+		)
+		(fp_text user "GND"
+			(at -1.5 5.5 270)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "90182b71-4add-4d38-a8d2-5d0559653e5b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+				(justify left bottom)
+			)
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 1.27 0)
@@ -6001,7 +6027,7 @@
 		(descr "Wuerth, WS-SLTV, 450301014042, https://www.we-online.com/components/products/datasheet/450301014042.pdf")
 		(tags "switch single-pole opposite-side-connection double-throw SPDT würth wurth")
 		(property "Reference" "SW1"
-			(at -1.47 -2.53 0)
+			(at 0 2.5 0)
 			(layer "F.SilkS")
 			(uuid "993c7557-ca5a-416b-8d89-d3c029f87665")
 			(effects
@@ -6091,6 +6117,32 @@
 			(fill no)
 			(layer "F.Fab")
 			(uuid "66a1b614-a684-40a6-aea5-be5c03b11283")
+		)
+		(fp_text user "ON"
+			(at -3.5 -2 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "f15f0d17-0613-45d7-abee-3845b73dad5c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+				(justify left bottom)
+			)
+		)
+		(fp_text user "OFF"
+			(at 1 -2 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "99a2ca9b-0932-485e-8105-28d6b14665c2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+				(justify left bottom)
+			)
 		)
 		(fp_text user "${REFERENCE}"
 			(at 3.6 -2.54 0)
@@ -6515,7 +6567,7 @@
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R6"
-			(at 7.81 -2.37 270)
+			(at 5.25 -2.37 90)
 			(layer "F.SilkS")
 			(uuid "7459471a-5259-402a-ad39-ad80905655ff")
 			(effects
@@ -6525,9 +6577,9 @@
 				)
 			)
 		)
-		(property "Value" "5R1"
-			(at 3.81 -2.38 270)
-			(layer "F.Fab")
+		(property "Value" "6R8"
+			(at 5.08 0 90)
+			(layer "F.SilkS")
 			(uuid "b9c08048-e253-403e-9e9c-8f221487951c")
 			(effects
 				(font
@@ -6537,7 +6589,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "4f18aeb1-13a1-49ac-8678-8409d6c27ed7")
@@ -6548,7 +6600,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "796c7567-9c64-4bcb-a7a4-bb597556b9d0")
@@ -6559,7 +6611,7 @@
 			)
 		)
 		(property "KiLib_Generator" "resistor/THT"
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "20972a36-ffca-40d3-b7fc-129511b27ccb")
@@ -6656,7 +6708,7 @@
 			(uuid "23a22d05-1fe8-4400-b42b-7166d9779c41")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 5.08 0 270)
+			(at 5.08 0 90)
 			(layer "F.Fab")
 			(uuid "16526c36-d30e-495e-a1b7-7b44df223c21")
 			(effects
@@ -6969,9 +7021,9 @@
 				)
 			)
 		)
-		(property "Value" "5R1"
-			(at 5.08 2.37 90)
-			(layer "F.Fab")
+		(property "Value" "6R8"
+			(at 5.08 0 90)
+			(layer "F.SilkS")
 			(uuid "1a094c18-7c2f-4bfd-ac63-78bc502eb22f")
 			(effects
 				(font
@@ -7659,9 +7711,9 @@
 				)
 			)
 		)
-		(property "Value" "5R1"
-			(at 5.08 2.37 0)
-			(layer "F.Fab")
+		(property "Value" "6R8"
+			(at 5.08 0 0)
+			(layer "F.SilkS")
 			(uuid "89c42c20-b084-4e72-915f-368346246678")
 			(effects
 				(font

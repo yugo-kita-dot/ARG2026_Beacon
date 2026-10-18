@@ -3283,7 +3283,7 @@
 				)
 			)
 		)
-		(property "Value" "5R1"
+		(property "Value" "6R8"
 			(at 123.19 60.706 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3864,7 +3864,7 @@
 				)
 			)
 		)
-		(property "Value" "5R1"
+		(property "Value" "6R8"
 			(at 123.19 78.486 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4021,7 +4021,7 @@
 				)
 			)
 		)
-		(property "Value" "5R1"
+		(property "Value" "6R8"
 			(at 123.19 69.596 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4100,7 +4100,7 @@
 				)
 			)
 		)
-		(property "Value" "5R1"
+		(property "Value" "6R8"
 			(at 123.19 96.266 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5243,7 +5243,7 @@
 				)
 			)
 		)
-		(property "Value" "5R1"
+		(property "Value" "6R8"
 			(at 123.19 51.816 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5479,7 +5479,7 @@
 				)
 			)
 		)
-		(property "Value" "5R1"
+		(property "Value" "6R8"
 			(at 123.19 87.376 90)
 			(show_name no)
 			(do_not_autoplace no)
