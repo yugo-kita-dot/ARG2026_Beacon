@@ -665,8 +665,8 @@
 		(tags "LED")
 		(property "Reference" "D1"
 			(at 1.27 -2.06 60)
-			(layer "F.Fab")
-			(uuid "857b49cd-203c-438f-9874-79834ab75d5f")
+			(layer "F.SilkS")
+			(uuid "090310e3-1d77-449a-a9aa-28b58911d372")
 			(effects
 				(font
 					(size 1 1)
@@ -676,8 +676,8 @@
 		)
 		(property "Value" "LED"
 			(at 1.27 2.06 60)
-			(layer "F.SilkS")
-			(uuid "9c86009c-876d-4feb-a8c8-49a435d7e432")
+			(layer "F.Fab")
+			(uuid "cb803ca4-b628-4a67-b450-32caca0ba451")
 			(effects
 				(font
 					(size 1 1)
@@ -689,7 +689,7 @@
 			(at 0 0 60)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b9e0280a-88de-4060-93e9-268941e7e095")
+			(uuid "0032136d-9ccc-4872-a71b-c7321faba2a5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -700,7 +700,7 @@
 			(at 0 0 60)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "120ee6ed-3c2a-42b7-8427-ddd985a1b6d6")
+			(uuid "01219fb2-c62f-4cd1-999c-6315ba888751")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -736,12 +736,6 @@
 		(path "/1a064fd5-c06f-4dab-8d0b-f5d284652236")
 		(sheetname "/")
 		(sheetfile "ARG2026_Beacon_circuit.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -763,6 +757,56 @@
 			)
 			(layer "F.SilkS")
 			(uuid "69f8be82-e563-406b-acad-ddbd8b0db5ca")
+		)
+		(fp_line
+			(start 0.551733 2)
+			(end 0.551733 2.448267)
+			(stroke
+				(width 0.070576)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "cd19438f-7a59-42b0-b925-2cd3aafb0ff9")
+		)
+		(fp_line
+			(start 0.551733 2)
+			(end 0.103404 2)
+			(stroke
+				(width 0.070576)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "ab0739d3-1964-4b68-a390-ccaa70f85ba0")
+		)
+		(fp_line
+			(start 0.551733 2)
+			(end 0.551733 1.551733)
+			(stroke
+				(width 0.070576)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "569c43fc-9244-4c07-8e1f-53ad4900f5a3")
+		)
+		(fp_line
+			(start 0.103404 2)
+			(end -0.344889 2)
+			(stroke
+				(width 0.070576)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "62a4d988-fca8-40bb-b278-973e20857316")
+		)
+		(fp_line
+			(start -0.344889 2)
+			(end 2.344888 2)
+			(stroke
+				(width 0.070576)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "0d376162-01a5-411c-9d50-dcd2b0110b8d")
 		)
 		(fp_line
 			(start 3.83 -1.06)
@@ -833,6 +877,18 @@
 			)
 			(layer "F.SilkS")
 			(uuid "a4ca976a-72d3-48b5-a6de-730aca793eab")
+		)
+		(fp_poly
+			(pts
+				(xy 1.433386 2.448038) (xy 1.448268 1.551733) (xy 0.551733 2)
+			)
+			(stroke
+				(width 0.070576)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.SilkS")
+			(uuid "c1538485-e084-4e88-87fd-106cdce18e0a")
 		)
 		(fp_poly
 			(pts
@@ -917,7 +973,7 @@
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R8"
-			(at 1.05 -2.71 0)
+			(at 4.87 -2.61 0)
 			(layer "F.SilkS")
 			(uuid "ef143611-aff4-4966-a0df-c014bb9bca22")
 			(effects
@@ -928,7 +984,7 @@
 			)
 		)
 		(property "Value" "470"
-			(at 7.98 -2.38 0)
+			(at 5.08 0 0)
 			(layer "F.SilkS")
 			(uuid "a8603373-3a37-4748-920d-d5241493f157")
 			(effects
@@ -1224,9 +1280,9 @@
 				)
 			)
 		)
-		(property "Value" "470"
+		(property "Value" "470u"
 			(at 1.682651 5.08 0)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(uuid "18014322-f6a1-4ade-a51a-18bc9b4a270b")
 			(effects
 				(font
@@ -3158,8 +3214,8 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 8.48 2.4 0)
-			(layer "F.Fab")
+			(at 5.08 0 0)
+			(layer "F.SilkS")
 			(uuid "af1f3f6c-5522-4adc-8c44-3a6fe6067850")
 			(effects
 				(font
@@ -3410,12 +3466,6 @@
 		(path "/000ffb01-389d-412f-b5f3-e1a0e6e098db")
 		(sheetname "/")
 		(sheetfile "ARG2026_Beacon_circuit.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3457,6 +3507,56 @@
 			)
 			(layer "F.SilkS")
 			(uuid "b3bb644e-53b4-442d-958d-68df65240a15")
+		)
+		(fp_line
+			(start 0.103378 2)
+			(end 2.793156 2)
+			(stroke
+				(width 0.070576)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "48ca8ca2-ffbe-4f02-8778-42456df84764")
+		)
+		(fp_line
+			(start 0.551671 2)
+			(end 0.103378 2)
+			(stroke
+				(width 0.070576)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "5c1d3871-be3b-41fc-b677-a14436101843")
+		)
+		(fp_line
+			(start 1 2)
+			(end 0.551671 2)
+			(stroke
+				(width 0.070576)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "04374ce3-d31b-409e-bd76-092bd02cdfa8")
+		)
+		(fp_line
+			(start 1 2)
+			(end 1 1.551733)
+			(stroke
+				(width 0.070576)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "3c49db1c-c5e9-4b70-a871-de8217a4fa6a")
+		)
+		(fp_line
+			(start 1 2)
+			(end 1 2.448267)
+			(stroke
+				(width 0.070576)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "e26b09fb-300e-4f18-90eb-532b48e98aca")
 		)
 		(fp_line
 			(start 1.08 -1.06)
@@ -3507,6 +3607,18 @@
 			)
 			(layer "F.SilkS")
 			(uuid "878680d1-5992-411c-b25b-31f140e1314a")
+		)
+		(fp_poly
+			(pts
+				(xy 1.881653 2.448038) (xy 1.896534 1.551733) (xy 1 2)
+			)
+			(stroke
+				(width 0.070576)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.SilkS")
+			(uuid "ebccb823-7ab7-4630-976b-a865e7d60991")
 		)
 		(fp_rect
 			(start -1.54 -1.31)
@@ -3788,6 +3900,117 @@
 		)
 		(embedded_fonts no)
 	)
+	(footprint "clipboard:8ea2c0b2-452e-4bc2-b55e-ed6b78fbe1c2"
+		(layer "F.Cu")
+		(uuid "8f93f744-5b65-449b-a552-21652f429276")
+		(at 199.39 94.615 180)
+		(property "Reference" ""
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(uuid "b2ade525-4365-4025-89b4-ddb2b54cf35c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "79c39dad-5bb4-409b-8135-cd5bcd07944f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fe3aacff-8803-453f-9661-7e38154558fd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ac3b20d4-df65-4db0-bee3-2ab951b9a5bb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start 0 0)
+			(end 0 0.448267)
+			(stroke
+				(width 0.070576)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "770add37-ec69-4b48-91ef-e478e5ddd92a")
+		)
+		(fp_line
+			(start 0 0)
+			(end 0 -0.448267)
+			(stroke
+				(width 0.070576)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "175d7209-a078-446a-a28e-66dcd000ddcd")
+		)
+		(fp_line
+			(start 0 0)
+			(end -0.448329 0)
+			(stroke
+				(width 0.070576)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "6013dd87-bc47-422e-8c60-6094de862ce1")
+		)
+		(fp_line
+			(start -0.448329 0)
+			(end -0.896622 0)
+			(stroke
+				(width 0.070576)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "03b429bf-ba86-4aa4-8517-88d602fac0e3")
+		)
+		(fp_line
+			(start -0.896622 0)
+			(end 1.793156 0)
+			(stroke
+				(width 0.070576)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "3de1ca4d-0a43-49a3-a1e8-73d1562edf29")
+		)
+		(fp_poly
+			(pts
+				(xy 0.881653 0.448038) (xy 0.896534 -0.448267) (xy 0 0)
+			)
+			(stroke
+				(width 0.070576)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.SilkS")
+			(uuid "7c71ca9f-ca60-4da4-8663-3b38ed99c67b")
+		)
+		(embedded_fonts no)
+	)
 	(footprint "MountingHole:MountingHole_3.2mm_M3"
 		(layer "F.Cu")
 		(uuid "952d26ec-403c-42e4-8ecf-c4cd8ea13dbe")
@@ -3901,7 +4124,7 @@
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R2"
-			(at 4.55 -2.39 90)
+			(at 5.245 -2.39 90)
 			(layer "F.SilkS")
 			(uuid "6ba786cf-1628-40c9-90ab-3a56ef0c1101")
 			(effects
@@ -3912,7 +4135,7 @@
 			)
 		)
 		(property "Value" "6R8"
-			(at 1.48 -2.34 90)
+			(at 5.08 0 90)
 			(layer "F.SilkS")
 			(uuid "b932f1d5-42e0-4839-a76f-9e6d4f84bd75")
 			(effects
@@ -4303,7 +4526,7 @@
 		(at 246.62 108.16 -90)
 		(descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x02 2.54mm single row")
-		(property "Reference" "J2"
+		(property "Reference" "SWIO"
 			(at 0 -2.38 90)
 			(layer "F.SilkS")
 			(uuid "dcc11eff-aad3-42f0-a06b-0f74d4baecce")
@@ -5013,12 +5236,6 @@
 		(path "/d099fb73-01bb-4417-b548-90a8e9a7bcdf")
 		(sheetname "/")
 		(sheetfile "ARG2026_Beacon_circuit.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5072,6 +5289,56 @@
 			(uuid "108d4082-0763-4157-82c8-0af769f3ac74")
 		)
 		(fp_line
+			(start 0.896622 2)
+			(end 0.896622 2.448267)
+			(stroke
+				(width 0.070576)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "36ebfb5f-fec2-44b0-be63-40f491346a9b")
+		)
+		(fp_line
+			(start 0.896622 2)
+			(end 0.896622 1.551733)
+			(stroke
+				(width 0.070576)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "1a93b7f0-e07a-4a6d-8ece-40414ca6d0d1")
+		)
+		(fp_line
+			(start 0.896622 2)
+			(end 0.448293 2)
+			(stroke
+				(width 0.070576)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "ea8c6b2c-21b7-4d16-873d-049503822394")
+		)
+		(fp_line
+			(start 0.448293 2)
+			(end 0 2)
+			(stroke
+				(width 0.070576)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "d5b0d679-fe60-4484-9f8a-0510594a261f")
+		)
+		(fp_line
+			(start 0 2)
+			(end 2.689778 2)
+			(stroke
+				(width 0.070576)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "f6692b2c-7f4d-4291-9a82-563996552ffd")
+		)
+		(fp_line
 			(start -1.08 1.06)
 			(end -1.29 1.06)
 			(stroke
@@ -5110,6 +5377,18 @@
 			)
 			(layer "F.SilkS")
 			(uuid "45defe23-4b92-4d85-9300-11092486c553")
+		)
+		(fp_poly
+			(pts
+				(xy 1.778275 2.448038) (xy 1.793156 1.551733) (xy 0.896622 2)
+			)
+			(stroke
+				(width 0.070576)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.SilkS")
+			(uuid "fdf36258-259b-498a-8bdb-0a6f1d688810")
 		)
 		(fp_rect
 			(start -1.54 -1.31)
@@ -5203,7 +5482,7 @@
 			)
 		)
 		(property "Value" "6R8"
-			(at 0.21 2.631937 0)
+			(at 5.08 0 0)
 			(layer "F.SilkS")
 			(uuid "ef9861c4-e808-44b0-bf33-7b8bec2927b5")
 			(effects
@@ -5573,7 +5852,7 @@
 		(at 246.64 104.28 -90)
 		(descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x02 2.54mm single row")
-		(property "Reference" "J1"
+		(property "Reference" "SWIO"
 			(at 0 -2.38 90)
 			(layer "F.SilkS")
 			(uuid "92b5a0a0-1628-4b47-b948-5dc8c96862f1")
@@ -6282,12 +6561,6 @@
 		(path "/f3eb757d-aa6d-4e6d-8fe7-0ab70b0884f3")
 		(sheetname "/")
 		(sheetfile "ARG2026_Beacon_circuit.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6301,6 +6574,36 @@
 			(uuid "cc716dfe-3f03-4f05-bcd0-0ba598c6aea6")
 		)
 		(fp_line
+			(start 1 2)
+			(end 1 2.448267)
+			(stroke
+				(width 0.070576)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "2c944ef2-ebcb-4bba-97ae-aaa2374c31c8")
+		)
+		(fp_line
+			(start 1 2)
+			(end 0.551671 2)
+			(stroke
+				(width 0.070576)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "518ae1ee-8cd7-41ef-8df0-f32b1927e82d")
+		)
+		(fp_line
+			(start 1 2)
+			(end 1 1.551733)
+			(stroke
+				(width 0.070576)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "04080bf9-237d-44e4-b2b1-6d4c19d64b03")
+		)
+		(fp_line
 			(start 2.333 1.06)
 			(end 1.08 1.06)
 			(stroke
@@ -6309,6 +6612,26 @@
 			)
 			(layer "F.SilkS")
 			(uuid "e7779e89-b4f7-4392-97b8-202adf2b1c43")
+		)
+		(fp_line
+			(start 0.551671 2)
+			(end 0.103378 2)
+			(stroke
+				(width 0.070576)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "c031f917-4f00-4c48-a415-8d40fe7b9cee")
+		)
+		(fp_line
+			(start 0.103378 2)
+			(end 2.793156 2)
+			(stroke
+				(width 0.070576)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "533f5ddc-ca17-4caa-9dc8-22fb60a6ad9c")
 		)
 		(fp_line
 			(start 3.83 -1.06)
@@ -6379,6 +6702,18 @@
 			)
 			(layer "F.SilkS")
 			(uuid "244ac0d3-f04f-4196-8331-f1aecc3e25ea")
+		)
+		(fp_poly
+			(pts
+				(xy 1.881653 2.448038) (xy 1.896534 1.551733) (xy 1 2)
+			)
+			(stroke
+				(width 0.070576)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.SilkS")
+			(uuid "67741384-b7cd-481e-a3bd-eaa7ffb02026")
 		)
 		(fp_poly
 			(pts
@@ -6832,14 +7167,18 @@
 		(path "/9e41bd66-68b6-406d-890b-b6f89d63b9a7")
 		(sheetname "/")
 		(sheetfile "ARG2026_Beacon_circuit.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start 0.103378 2)
+			(end 2.793156 2)
+			(stroke
+				(width 0.070576)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "035b336d-92c3-40ac-bab3-bcdeffde1985")
+		)
 		(fp_line
 			(start -1.29 1.06)
 			(end -1.29 -1.06)
@@ -6859,6 +7198,46 @@
 			)
 			(layer "F.SilkS")
 			(uuid "61f4f430-cf3a-4716-8e65-3fdcbecc04be")
+		)
+		(fp_line
+			(start 0.551671 2)
+			(end 0.103378 2)
+			(stroke
+				(width 0.070576)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "3c76c590-0c65-4045-9315-4e7d2d142cfc")
+		)
+		(fp_line
+			(start 1 2)
+			(end 1 2.448267)
+			(stroke
+				(width 0.070576)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "d81b60e6-164f-47fe-ad57-aa406a9a7ee3")
+		)
+		(fp_line
+			(start 1 2)
+			(end 0.551671 2)
+			(stroke
+				(width 0.070576)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "28188a15-819d-4c1c-9d49-dbceb00632bd")
+		)
+		(fp_line
+			(start 1 2)
+			(end 1 1.551733)
+			(stroke
+				(width 0.070576)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "0641257c-553a-4dd7-9199-e6b04f399bd0")
 		)
 		(fp_line
 			(start 2.333 1.06)
@@ -6929,6 +7308,18 @@
 			)
 			(layer "F.SilkS")
 			(uuid "37f17bdb-c5fd-4c7b-9a03-b5fb26d105fc")
+		)
+		(fp_poly
+			(pts
+				(xy 1.881653 2.448038) (xy 1.896534 1.551733) (xy 1 2)
+			)
+			(stroke
+				(width 0.070576)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.SilkS")
+			(uuid "5f322000-bf7e-44a1-a3cc-1d9f85da7d0e")
 		)
 		(fp_poly
 			(pts
@@ -7206,7 +7597,7 @@
 		(property "Reference" "D6"
 			(at 1.27 -2.06 120)
 			(layer "F.SilkS")
-			(uuid "b69a7228-7576-4a55-9826-f4aa0f038523")
+			(uuid "8b61e23b-b345-4781-9dfe-b991e7cdd7a1")
 			(effects
 				(font
 					(size 1 1)
@@ -7217,7 +7608,7 @@
 		(property "Value" "LED"
 			(at 1.27 2.06 120)
 			(layer "F.Fab")
-			(uuid "9c2bccd7-67e6-4003-bac6-b4014d64a630")
+			(uuid "ac3a51f1-cc8e-474e-b9e7-31280119021f")
 			(effects
 				(font
 					(size 1 1)
@@ -7229,7 +7620,7 @@
 			(at 0 0 120)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e555b89d-d5f6-46d8-a9b7-689ccf9cf3fa")
+			(uuid "5b086f2a-33fc-4e9f-b595-8e1c3ed972a0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7240,7 +7631,7 @@
 			(at 0 0 120)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "870aa99f-db7a-4fea-9c5d-db6b356c448e")
+			(uuid "c3771eb2-e0e7-4da3-be9a-682794f41e8a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7276,12 +7667,6 @@
 		(path "/1663cfc9-c8b9-4408-912f-b8c45ee9b946")
 		(sheetname "/")
 		(sheetfile "ARG2026_Beacon_circuit.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7355,6 +7740,36 @@
 			(uuid "27ba8a78-9013-4c22-b34c-2ff8a46b2ceb")
 		)
 		(fp_line
+			(start 0.896622 2)
+			(end 0.896622 1.551733)
+			(stroke
+				(width 0.070576)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "b85b682a-76f5-43c4-8d19-d570a78d63d4")
+		)
+		(fp_line
+			(start 0.896622 2)
+			(end 0.448293 2)
+			(stroke
+				(width 0.070576)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "d76a3b82-4e0c-42a9-ba12-3b3d1c4d0b08")
+		)
+		(fp_line
+			(start 0.896622 2)
+			(end 0.896622 2.448267)
+			(stroke
+				(width 0.070576)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "942b426b-55dd-4ab2-8607-bc1ed4d9c81f")
+		)
+		(fp_line
 			(start -1.08 1.06)
 			(end -1.29 1.06)
 			(stroke
@@ -7365,6 +7780,16 @@
 			(uuid "e20097b8-0149-40e3-932b-f0706f801f97")
 		)
 		(fp_line
+			(start 0.448293 2)
+			(end 0 2)
+			(stroke
+				(width 0.070576)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "74c021be-4784-460d-8858-e190f2fd067a")
+		)
+		(fp_line
 			(start -1.29 1.06)
 			(end -1.29 -1.06)
 			(stroke
@@ -7373,6 +7798,28 @@
 			)
 			(layer "F.SilkS")
 			(uuid "f6139135-b9a8-4f38-9daf-32e89e266ca1")
+		)
+		(fp_line
+			(start 0 2)
+			(end 2.689778 2)
+			(stroke
+				(width 0.070576)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "3ac95640-8f30-4b99-9f93-8ce90e6b603d")
+		)
+		(fp_poly
+			(pts
+				(xy 1.778275 2.448038) (xy 1.793156 1.551733) (xy 0.896622 2)
+			)
+			(stroke
+				(width 0.070576)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.SilkS")
+			(uuid "7499b6d2-8f88-4fc5-98c5-d0fa8fe35d65")
 		)
 		(fp_poly
 			(pts
