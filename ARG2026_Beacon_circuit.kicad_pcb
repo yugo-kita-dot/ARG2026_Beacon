@@ -3912,117 +3912,6 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "clipboard:8ea2c0b2-452e-4bc2-b55e-ed6b78fbe1c2"
-		(layer "F.Cu")
-		(uuid "8f93f744-5b65-449b-a552-21652f429276")
-		(at 199.238267 97.55 180)
-		(property "Reference" ""
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(uuid "6b23d182-6d4a-4123-a540-db4a17ec2f49")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "4a866cdb-5e61-41c6-9df5-9e2e46089640")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "30f8f1b0-f9e3-4a65-8b42-6ad1143afe5d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "fe062b04-7f95-4385-9e26-109ff997500e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start 0 0)
-			(end 0 0.448267)
-			(stroke
-				(width 0.070576)
-				(type default)
-			)
-			(layer "F.SilkS")
-			(uuid "770add37-ec69-4b48-91ef-e478e5ddd92a")
-		)
-		(fp_line
-			(start 0 0)
-			(end 0 -0.448267)
-			(stroke
-				(width 0.070576)
-				(type default)
-			)
-			(layer "F.SilkS")
-			(uuid "175d7209-a078-446a-a28e-66dcd000ddcd")
-		)
-		(fp_line
-			(start 0 0)
-			(end -0.448329 0)
-			(stroke
-				(width 0.070576)
-				(type default)
-			)
-			(layer "F.SilkS")
-			(uuid "6013dd87-bc47-422e-8c60-6094de862ce1")
-		)
-		(fp_line
-			(start -0.448329 0)
-			(end -0.896622 0)
-			(stroke
-				(width 0.070576)
-				(type default)
-			)
-			(layer "F.SilkS")
-			(uuid "03b429bf-ba86-4aa4-8517-88d602fac0e3")
-		)
-		(fp_line
-			(start -0.896622 0)
-			(end 1.793156 0)
-			(stroke
-				(width 0.070576)
-				(type default)
-			)
-			(layer "F.SilkS")
-			(uuid "3de1ca4d-0a43-49a3-a1e8-73d1562edf29")
-		)
-		(fp_poly
-			(pts
-				(xy 0.881653 0.448038) (xy 0.896534 -0.448267) (xy 0 0)
-			)
-			(stroke
-				(width 0.070576)
-				(type solid)
-			)
-			(fill yes)
-			(layer "F.SilkS")
-			(uuid "7c71ca9f-ca60-4da4-8663-3b38ed99c67b")
-		)
-		(embedded_fonts no)
-	)
 	(footprint "MountingHole:MountingHole_3.2mm_M3"
 		(layer "F.Cu")
 		(uuid "952d26ec-403c-42e4-8ecf-c4cd8ea13dbe")
@@ -8012,14 +7901,58 @@
 		(path "/5c588431-107a-48cb-82ea-76bd6c1cacb1")
 		(sheetname "/")
 		(sheetfile "ARG2026_Beacon_circuit.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start 1 -3)
+			(end 1 -2.551733)
+			(stroke
+				(width 0.070576)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "df6fe7fa-43c0-44e1-807d-0e969d00fbf5")
+		)
+		(fp_line
+			(start 1 -3)
+			(end 1 -3.448267)
+			(stroke
+				(width 0.070576)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "479ce935-8280-4a62-bb34-8da3d0114884")
+		)
+		(fp_line
+			(start 1 -3)
+			(end 0.551671 -3)
+			(stroke
+				(width 0.070576)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "5899a3e5-c653-4643-b3fd-ca8df7e6ea2c")
+		)
+		(fp_line
+			(start 0.551671 -3)
+			(end 0.103378 -3)
+			(stroke
+				(width 0.070576)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "79184545-308a-4fa6-986d-50fcfe77a461")
+		)
+		(fp_line
+			(start 0.103378 -3)
+			(end 2.793156 -3)
+			(stroke
+				(width 0.070576)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "40cb0ad6-e84a-4f78-8141-2575caac1028")
+		)
 		(fp_line
 			(start -0.29 1.08)
 			(end -0.29 1.236)
@@ -8083,6 +8016,18 @@
 			)
 			(layer "F.SilkS")
 			(uuid "64c2fc7f-a594-43c0-9b0d-6bbdade9729f")
+		)
+		(fp_poly
+			(pts
+				(xy 1.881653 -2.551962) (xy 1.896534 -3.448267) (xy 1 -3)
+			)
+			(stroke
+				(width 0.070576)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.SilkS")
+			(uuid "86243825-fd2e-4b4c-84fc-0ac1174251c7")
 		)
 		(fp_rect
 			(start -1.15 -2.21)
